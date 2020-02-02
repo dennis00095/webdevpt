@@ -97,14 +97,15 @@ navbar-toggler
 }
 #services
 {
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/logo.png);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/services.jpg);
     background-size: cover;
     background-position: center;
-    color:blue !important;
+    color:black !important;
     background-attachment: fixed;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 80px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    height: 200px;
+   
 }
 #services h1
 {
@@ -115,9 +116,35 @@ navbar-toggler
 #services h1::after
 {
     content: '';
-    background: #efefef;
+    background: #0e040b;
     display: block;
     height: 3px;
     width: 170px;
     margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(99, 12, 240);
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(93, 9, 72);
+}
+.services .col-md-3:hover
+{
+    background: #cbd2da;
+    cursor: pointer;
+    transition: 0.6s;
 }
